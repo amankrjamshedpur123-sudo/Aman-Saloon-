@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aman Raj Hair Cutting Saloon</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:black;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#444;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.services{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.box{
+background:white;
+width:200px;
+padding:20px;
+box-shadow:0 0 10px gray;
+border-radius:8px;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+button{
+background:green;
+color:white;
+border:none;
+padding:10px 20px;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Aman Raj Hair Cutting Saloon</h1>
+<p>Owner: Hira Bhai</p>
+<p>Style Your Hair Like a King 💈</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h2>Welcome to Our Salon</h2>
+<p>Professional Hair Cutting and Grooming Services in Jamshedpur.</p>
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="box">
+<h3>Hair Cut</h3>
+<p>₹100</p>
+</div>
+
+<div class="box">
+<h3>Beard Trim</h3>
+<p>₹50</p>
+</div>
+
+<div class="box">
+<h3>Hair Styling</h3>
+<p>₹150</p>
+</div>
+
+<div class="box">
+<h3>Facial</h3>
+<p>₹300</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Phone:</b> +91 8340767260</p>
+
+<p><b>Address:</b> Mahul Bera Chowk Garhabasa, Golmuri, Jamshedpur - 831003</p>
+
+<p><b>Opening Time:</b> 7 AM – 1 PM</p>
+<p><b>Break:</b> 1 PM – 4 PM</p>
+
+<br>
+
+<a href="https://wa.me/918340767260">
+<button>Book on WhatsApp</button>
+</a>
+
+</section>
+
+<footer>
+<p>© 2026 Aman Raj Hair Cutting Saloon</p>
+</footer>
+
+</body>
+</html>
